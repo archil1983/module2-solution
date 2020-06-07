@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 40px;
+    font-family: "Arial Rounded MT Bold";
+}
+
+.row {
+    width: 100%;
+}
+
+
+h1{
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-size: 1em;
+}
+div {
+    float: left;
+}
+
+.pod {
+    border: 1px solid black;
+    background: gray;
+    min-height: 100px;
+    margin: 20px;
+}
+
+.title {
+    position: relative;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+    width: 150px;
+    min-height: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    font-size: 0.75em;
+}
+
+.text {
+    border: 0;
+    padding: 10px 15px 10px 15px ;
+    font-size: 0.25em;
+    margin: 0;
+}
+
+#Beef {
+    background: red;
+}
+
+#Chicken {
+    background: yellow;
+}
+
+#Sushi {
+    background: coral;
+}
